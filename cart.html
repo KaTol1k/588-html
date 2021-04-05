@@ -13,9 +13,8 @@
         </nav>
         <h1>Stickerz - Cart</h1>
     </header>
-    <main>
-        <h2>Products</h2>
-<table>
+<main>
+        <table>
             <tr>
                 <td>
                     <img width="20" src="img/baby-yoda.svg" alt="Baby Yoda">
@@ -24,7 +23,7 @@
                     Baby Yoda
                 </td>
                 <td>
-                    <input type="number" value="2" min="1">
+                    <input type="number" value="0" min="1">
                 </td>
                 <td>
                     $178.00USD
@@ -32,8 +31,8 @@
                 <td>
                     🗑
                 </td>
-            </tr>
-            <tr>
+                <tr>
+                </tr>
                 <td>
                     <img width="20" src="img/banana.svg" alt="Banana">
                 </td>
@@ -41,7 +40,7 @@
                     Banana
                 </td>
                 <td>
-                    <input type="number" value="3" min="1">
+                    <input type="number" value="0" min="1">
                 </td>
                 <td>
                     $278.00USD
@@ -52,32 +51,32 @@
             </tr>
             <tr>
                 <td colspan="3"></td>
-                <td colspan="2">Total: $892.00USD</td>
+                <td colspan="2">Total: $ 892.00USD</td>
             </tr>
         </table>
-        <h2>PLACE AN ORDER</h2>
-        <form action="">
             <label>
-                Name
-                <input type="text" name="Your name" placeholder="Your name" >
+                "Name"
+                <input type="text" name="user-name" placeholder="Your Name" required>
             </label>
-            <br>
+        <br>
+            <label >
+                "Email"
+                <input type="email" name="user-email" placeholder="Your Email Address" required>
+            </label>
+        <br>
             <label>
-                Email
-                <input type="text" name="Your email" placeholder="Your email address" >
+                "Phone"
+                <input type="tel" name="user-number" placeholder="Your Phone" required>
             </label>
-            <br>
+        <br>
             <label>
-                Phone
-                <input type="text" name="Your phone" placeholder="Your phone" >
+                "Comments"
+                <textarea name="" id="" cols="30" rows="4"></textarea>
             </label>
-            <br>                
-            <label>
-                Comment
-                
-                <input type="text" name="Your comment" placeholder="Your comment" >
-            </label>
-        </form>
+        <br>
+        <input type="submit" value="Order">
+        <a href="#">Continue shopping</a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Aufl9h8AAUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
     </main>
     <footer>
         <h3>Continue shopping</h3>
